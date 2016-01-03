@@ -19,6 +19,15 @@ following tools and libraries to build Augeas:
 * libxml2-devel
 * libselinux-devel (optional)
 
+On Raspbian Jessie:
+
+* sudo apt-get install autoconf
+
+* sudo apt-get install bison
+* sudo apt-get install flex
+* sudo apt-get install libreadline-dev
+* sudo apt-get install libxml2-dev
+
 Augeas uses gnulib, and you need a checkout of gnulib. The build scripts
 can create a checkout for you behind the scenes - though if you already
 have a gnulib checkout, you can pass its location to autogen.sh with the
